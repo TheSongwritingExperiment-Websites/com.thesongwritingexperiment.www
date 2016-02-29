@@ -1,0 +1,15 @@
+.footer-col-1 {
+    width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+    width:         calc(60% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+    width:         calc(40% - (#{$spacing-unit} / 2));
+	text-align: right;
+}
+
+.footer-col-3 {
+    width: 0; // -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width: 0; //         calc(30% - (#{$spacing-unit} / 2));
+}
